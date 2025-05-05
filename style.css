@@ -28,7 +28,7 @@ body{
     align-items: center;
 }
 
-.trans-btn{
+#trans-btn{
     width: 57.6px;
     height: auto;
     object-fit: contain;
@@ -39,7 +39,7 @@ body{
     color: #312550;
 }
 
-.trans-btn:hover{
+#trans-btn:hover{
     width: 60px;
     height: auto;
 }

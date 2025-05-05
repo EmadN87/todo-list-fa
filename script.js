@@ -1,6 +1,9 @@
+const html = document.querySelector("html")
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 const btn = document.getElementById("btn");
+const transBtn = document.getElementById("trans-btn");
+const h1 = document.querySelector('.title h1');
 
 let addTask = () => {
     if(inputBox.value === ''){
@@ -37,3 +40,19 @@ let showTask = () =>{
 }
 showTask();
 btn.addEventListener('click', addTask);
+
+let translate = () => {
+    if(h1.textContent === "📔 لیست وظایف"){
+        h1.textContent = "task list 📔";
+        h1.style.direction = "ltr";
+        btn.textContent = "add";
+        inputBox.placeholder = "write...";
+    } else {
+        h1.textContent = "📔 لیست وظایف";
+        h1.style.direction = "rtl";
+        btn.textContent = "افزودن";
+        inputBox.placeholder = "بنویس...";
+    }
+}
+
+transBtn.addEventListener('click', translate);
