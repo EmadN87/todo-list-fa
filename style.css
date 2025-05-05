@@ -29,19 +29,17 @@ body{
 }
 
 #trans-btn{
-    width: 57.6px;
-    height: auto;
-    object-fit: contain;
-    cursor: pointer;
-    margin: 0px 0px 0px 9px;
     position: relative;
-    bottom: 11.2px;
-    color: #312550;
+    top: -11px;
+    right: -15px;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 #trans-btn:hover{
-    width: 60px;
-    height: auto;
+    transform: scale(1.1);
 }
 
 .to-do{
