@@ -9,14 +9,21 @@ This project is a simple **To-Do List** built using **HTML, CSS, and JavaScript*
 - **Store tasks in `localStorage`**
 - **Simple and user-friendly UI**
 - **Supports RTL layout (right-to-left) for Persian language**
+- **Language toggle with Font Awesome icons**
 
 ## Prerequisites
-No special prerequisites are required to run this project. Just open the HTML, CSS, and JavaScript files in your browser.
+- A modern web browser
+- Internet connection (for loading Font Awesome icons)
 
 ## How to use
-1. Copy the code into your project.
-2. Open the `index.html` file in your browser.
-3. Easily add, remove, or mark tasks as done.
+1. Copy the code into your project
+2. Make sure to include Font Awesome in your HTML:
+   ```html
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   ```
+3. Open the `index.html` file in your browser
+4. Easily add, remove, or mark tasks as done
+5. Use the language toggle button to switch between English and Persian
 
 ## Further improvements
 - Add creation date for each task
@@ -29,4 +36,3 @@ No special prerequisites are required to run this project. Just open the HTML, C
 - `script.js`: The JavaScript code for adding, removing, and managing tasks
 
 ## License
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
