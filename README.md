@@ -34,5 +34,3 @@ This project is a simple **To-Do List** built using **HTML, CSS, and JavaScript*
 - `index.html`: The main structure of the page
 - `style.css`: The styling of the page
 - `script.js`: The JavaScript code for adding, removing, and managing tasks
-
-## License
