@@ -14,7 +14,7 @@ let addTask = () => {
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7";
+        span.innerHTML = "\u00d7"; // Unicode for the multiplication sign (×), used as a close button
         li.appendChild(span);
         saveTime();
     }  
