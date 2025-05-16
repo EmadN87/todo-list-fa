@@ -39,5 +39,3 @@ You can view the website live via GitHub Pages here:
 - `index.html`: The main structure of the page
 - `style.css`: The styling of the page
 - `script.js`: The JavaScript code for adding, removing, and managing tasks
-
-## License
