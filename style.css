@@ -3,7 +3,7 @@
     --vazir: vazirmatn;
 }
 *{
-    font-family: var(--vazir), poppins;
+    font-family: 'var(--vazir)', 'poppins';
     margin: 0;
     padding: 0;
     box-sizing: border-box;

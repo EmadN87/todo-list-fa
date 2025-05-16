@@ -11,6 +11,11 @@ This project is a simple **To-Do List** built using **HTML, CSS, and JavaScript*
 - **Supports RTL layout (right-to-left) for Persian language**
 - **Language toggle with Font Awesome icons**
 
+## 🔗 Live Demo
+
+You can view the website live via GitHub Pages here:  
+👉 [https://to-do-emad.netlify.app/](https://to-do-emad.netlify.app/)
+
 ## Prerequisites
 - A modern web browser
 - Internet connection (for loading Font Awesome icons)
