@@ -1,3 +1,5 @@
+### 🌏 Readme in [Farsi](README_fa.md)
+
 # To-Do List
 
 This project is a simple **To-Do List** built using **HTML, CSS, and JavaScript**. You can easily add, mark as done, or remove your tasks.
