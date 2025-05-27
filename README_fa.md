@@ -24,7 +24,7 @@
 -   HTML5
 -   CSS3
 -   JavaScript
--   Font Awesome 6.0.0
+-   Font Awesome
 
 ## نحوه استفاده
 
