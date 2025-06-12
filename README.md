@@ -4,7 +4,7 @@
 
 This project is a simple **To-Do List** built using **HTML, CSS, and JavaScript**. You can easily add, mark as done, or remove your tasks.
 
-![Screenshot of the page](images/to-do-list.png)
+![Screenshot of the page](Assets\screenshots\to-do-list.png)
 
 ## Features
 - **Add new tasks**
