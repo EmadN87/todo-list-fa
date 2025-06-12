@@ -1,34 +1,41 @@
-:root{
-    --back-grad: linear-gradient(to left bottom, #312550, #452b77, #5f2d9f, #7e28c6, #a312eb);
+:root {
+    --back-grad: linear-gradient(
+        to left bottom,
+        #312550,
+        #452b77,
+        #5f2d9f,
+        #7e28c6,
+        #a312eb
+    );
     --vazir: vazirmatn;
 }
-*{
-    font-family: "poppins",var(--vazir) ;
+* {
+    font-family: 'poppins', var(--vazir);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
 }
-html{
+html {
     background: var(--back-grad);
     background-repeat: no-repeat;
     height: 100%;
 }
-body{
+body {
     color: white;
 }
-.container{
+.container {
     width: 100%;
     height: 100vh;
     padding: 1em;
 }
-.title{
+.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#trans-btn{
+#trans-btn {
     position: relative;
     right: -15px;
     font-size: 43px;
@@ -37,11 +44,11 @@ body{
     margin-bottom: 20px;
 }
 
-#trans-btn:hover{
+#trans-btn:hover {
     transform: scale(1.1);
 }
 
-.to-do{
+.to-do {
     width: 100%;
     max-width: 549px;
     background-color: #312550;
@@ -50,13 +57,13 @@ body{
     border-radius: 10px;
     align-items: baseline;
 }
-.to-do h1{
+.to-do h1 {
     color: azure;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +72,7 @@ body{
     margin-bottom: 20px;
     border-radius: 30px;
 }
-input{
+input {
     flex: 1;
     outline: none;
     border: none;
@@ -74,7 +81,7 @@ input{
     font-weight: 600;
     color: #6f6e77;
 }
-button{
+button {
     outline: none;
     border: none;
     padding: 16px 50px;
@@ -84,13 +91,13 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
-button:hover{
+button:hover {
     padding-right: 70px;
 }
-button::content:hover{
+button::content:hover {
     width: 40px;
 }
-ul li{
+ul li {
     list-style: none;
     font-size: 17px;
     padding: 12px 12px 8px 50px;
@@ -99,26 +106,26 @@ ul li{
     cursor: pointer;
     margin-right: 16px;
 }
-ul li::before{
+ul li::before {
     content: '';
     position: absolute;
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url("./images/unchecked.png");
+    background-image: url('./images/unchecked.png');
     background-size: cover;
     background-position: center;
     top: 12px;
     right: -25px;
 }
-ul li.checked{
+ul li.checked {
     text-decoration: line-through;
     color: #444;
 }
-ul li.checked::before{
-    background-image: url("./images/checked.png");
+ul li.checked::before {
+    background-image: url('./images/checked.png');
 }
-ul li span{
+ul li span {
     position: absolute;
     top: 3px;
     left: 0;
@@ -130,6 +137,6 @@ ul li span{
     text-align: center;
     border-radius: 50%;
 }
-ul li span:hover{
+ul li span:hover {
     background-color: #edeef0;
 }
