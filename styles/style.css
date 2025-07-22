@@ -13,7 +13,7 @@
     --accent-hover: #ff4331;
     --text-color: #6f6e77;
     --border-radius: 30px;
-    --transition: all 0.3s ease-in-out;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --border-color: rgb(94 57 170 / 69%);
 }
 * {
@@ -77,6 +77,9 @@ body {
 
 .to-do:hover {
     transform: translateY(-5px);
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 50%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .row {
